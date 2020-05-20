@@ -1,0 +1,9 @@
+{
+  "status": 1,
+  "name": "SfdxError",
+  "message": "We can’t retrieve the specified metadata object: MutingPermissionSet. Certain metadata types, like MutingPermissionSet are not currently supported by the CLI.\nFile a bug here: https://github.com/forcedotcom/cli/issues and provide the name of the unsupported metadata type",
+  "exitCode": 1,
+  "commandName": "SourceRetrieveCommand",
+  "stack": "SfdxError: We can’t retrieve the specified metadata object: MutingPermissionSet. Certain metadata types, like MutingPermissionSet are not currently supported by the CLI.\nFile a bug here: https://github.com/forcedotcom/cli/issues and provide the name of the unsupported metadata type\n    at Function.wrap (/home/ubuntu/.local/share/sfdx/client/7.58.2-937f666ed4/node_modules/salesforce-alm/node_modules/@salesforce/core/lib/sfdxError.js:149:20)\n    at Function.getMetadataTypeFromFileProperty (/home/ubuntu/.local/share/sfdx/client/7.58.2-937f666ed4/node_modules/salesforce-alm/dist/lib/source/metadataTypeFactory.js:53:36)\n    at SourceWorkspaceAdapter.processMdapiFileProperty (/home/ubuntu/.local/share/sfdx/client/7.58.2-937f666ed4/node_modules/salesforce-alm/dist/lib/source/sourceWorkspaceAdapter.js:256:81)\n    at result.fileProperties.forEach.fileProperty (/home/ubuntu/.local/share/sfdx/client/7.58.2-937f666ed4/node_modules/salesforce-alm/dist/lib/source/sourcePullApi.js:139:22)\n    at Array.forEach (<anonymous>)\n    at MdapiPullApi._syncDownSource (/home/ubuntu/.local/share/sfdx/client/7.58.2-937f666ed4/node_modules/salesforce-alm/dist/lib/source/sourcePullApi.js:132:31)\n    at SourceRetrieve.retrieveFromManifest (/home/ubuntu/.local/share/sfdx/client/7.58.2-937f666ed4/node_modules/salesforce-alm/dist/lib/source/sourceRetrieve.js:139:56)",
+  "warnings": []
+}
