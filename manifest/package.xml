@@ -1480,6 +1480,7 @@
         <members>StreamActivityAccess</members>
         <members>StreamingChannel</members>
         <members>Task</members>
+        <members>Test_Object__c</members>
         <members>TimeSlot</members>
         <members>Topic</members>
         <members>TopicAssignment</members>
