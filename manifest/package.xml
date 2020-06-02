@@ -788,6 +788,7 @@
         <members>MY_Partner__c.Description__c</members>
         <members>MY_Partner__c.Email__c</members>
         <members>MY_Partner__c.Type__c</members>
+        <members>MY_Partner__c.fax__c</members>
         <members>MY_Partner__c.phone__c</members>
         <members>Macro.Description</members>
         <members>Macro.IsAlohaSupported</members>
